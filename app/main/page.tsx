@@ -1,8 +1,9 @@
-export default function AboutPage() {
+import ImageSelectCard from "@/commponents/SelectCard"
+
+export default function MainPage() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>これは main ページです。</p>
+    <div className="h-screen flex items-center justify-center">
+      <ImageSelectCard />
     </div>
   )
 }
